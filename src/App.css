@@ -1,7 +1,7 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0px;
   text-align: center;
 }
 
@@ -16,6 +16,16 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Homer brand logo tweaks */
+.logo.homer {
+  /* a bit smaller than the generic logo size */
+  height: 4em;
+  padding: 0;          /* remove large padding from generic .logo */
+  margin: 1.5em auto;  /* center horizontally & give vertical space */
+  display: block;      /* ensures the auto margins center the image */
+  max-width: 200px;    /* prevent it from being too wide on large screens */
 }
 
 @keyframes logo-spin {
@@ -33,17 +43,11 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
 
-.read-the-docs {
-  color: #888;
-}
 
 
 .product-card {
-  background-color: beige;
-  border-radius: 4px;
+  background-color: rgb(236, 233, 233);
+  /*border-radius: 4px;*/
   color: aqua;
 }
