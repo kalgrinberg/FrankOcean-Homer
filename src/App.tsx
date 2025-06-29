@@ -13,12 +13,6 @@ function App() {
 
 
 
-      <div className="product-card">
-        <h3>Diamond Necklace</h3>
-        <p>$2,500</p>
-      </div>
-
-
     </>
   )
 }

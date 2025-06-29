@@ -3,14 +3,18 @@ import HomerLogo from "../images/Homer_Logo.png";
 import "./topnav.css";
 
 
-function Topnav(){
+function Topnav() {
 
-return (
-<div className = "kalTopnav">
-    <h1>Kal's Topnav Goes Here</h1>
-    </div>
+    return (
+        <div className="kalTopnav">
+            
+            <div className="logocontainer">
+                <img className="homerlogo" src={HomerLogo} />
+            </div>
 
-);
+        </div>
+
+    );
 }
 
 export default Topnav;

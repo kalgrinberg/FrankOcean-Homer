@@ -1,13 +1,16 @@
-.product-card {
-  background-color: rgb(236, 233, 233);
-  /*border-radius: 4px;*/
-  color: aqua;
-}
-
-
 .kalTopnav {
     display: flex;
     width: auto;
     height: auto;
     background-color: bisque;
+}
+
+.logocontainer {
+  
+}
+
+.homerlogo {
+     height: 48px;
+   width: auto;
+   display: block;
 }
