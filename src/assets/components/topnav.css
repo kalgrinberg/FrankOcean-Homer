@@ -3,3 +3,11 @@
   /*border-radius: 4px;*/
   color: aqua;
 }
+
+
+.kalTopnav {
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: bisque;
+}
