@@ -1,22 +1,20 @@
-
-
-
-
 .card-container {
     display: flex;
     flex-direction: column;
     height: auto;
-    width: 23rem;
+    width: 30rem;
     align-items: flex-start;
     background-color: #f9f9f9;
 }
 
 .color-style {
     background-color: rgb(236, 233, 233);
-    height: 100px;
+    font-family: Arial-Black, sans-serif;
+    height: 42px;
     width: 100%;
     color: black;
-    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: -1px;
 }
 
 .color-stripe {
@@ -28,4 +26,28 @@
 .product {
     width: 100%;
     height: auto;
+}
+
+.material {
+    background-color: rgb(236, 233, 233);
+    font-family: Arial-Black, sans-serif;
+    height: 42px;
+    width: 100%;
+    color: black;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+.AddtoCart {
+
+    background-color: #00af66;
+    font-family: Arial-Black, sans-serif;
+    height: 42px;
+    width: 100%;
+    color: black;
+    font-size: 14px;
+    display: flex;
+    letter-spacing: -1px;
+    justify-content: space-between;
+    align-items: flex-start;
 }
