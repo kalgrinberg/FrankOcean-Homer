@@ -1,6 +1,7 @@
-import './App.css'
+import './App.css';
 import Hero from './assets/components/hero';
 import TopNav from "./assets/components/topnav";
+import './styles.css';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
 
 
       <TopNav />
-
+      
       <Hero />
 
 

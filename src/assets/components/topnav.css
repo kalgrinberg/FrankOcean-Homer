@@ -1,16 +1,22 @@
-.kalTopnav {
+.TopNavContainer {
     display: flex;
     width: auto;
     height: auto;
-    background-color: bisque;
+    /* background-color: bisque; */
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:16px 56px;
 }
 
-.logocontainer {
-  padding: 20px 0px;
-}
 
 .homerlogo {
-     height: 32px;
-   width: auto;
-   display: block;
+    height: 32px;
+    width: auto;
+    display: block;
+}
+
+
+.navbuttons {
+    display: flex;
+    gap: 64px;
 }

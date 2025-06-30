@@ -1,6 +1,6 @@
 .superheroContainer {
-   background-color: blue;
-   padding:  0px;
+/*   background-color: blue; */
+   padding:  150px 0px;
    height: auto;
    width: auto;
 }
@@ -8,5 +8,5 @@
 .heroimage {
     width: 100%;
     padding: 0px;
-    background-color: blueviolet;
+ /*   background-color: blueviolet; */
 }
