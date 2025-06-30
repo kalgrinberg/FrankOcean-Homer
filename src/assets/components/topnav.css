@@ -6,11 +6,11 @@
 }
 
 .logocontainer {
-  
+  padding: 20px 0px;
 }
 
 .homerlogo {
-     height: 48px;
+     height: 32px;
    width: auto;
    display: block;
 }

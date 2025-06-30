@@ -1,15 +1,15 @@
 import './App.css'
+import Hero from './assets/components/hero';
 import TopNav from "./assets/components/topnav";
 
 function App() {
   return (
     <>
 
-      <div>
-        <TopNav />
-      </div>
 
-      <h1>"Homer"</h1>
+      <TopNav />
+
+      <Hero />
 
 
 
