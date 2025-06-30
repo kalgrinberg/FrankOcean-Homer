@@ -1,4 +1,3 @@
-/*import React from "react";*/
 import HomerLogo from "../images/Homer_Logo.png";
 import "./topnav.css";
 import "../../styles.css";
