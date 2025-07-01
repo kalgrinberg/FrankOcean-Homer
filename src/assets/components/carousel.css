@@ -3,6 +3,13 @@
     width: auto;
     padding: 0px 56px;
     /* background-color: rgb(156, 156, 214); */
-    gap: 44px;
+    /* gap: 44px;  MOVING THIS TO carouselTRACK!*/
     padding-bottom: 100px;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.carouselTrack {
+    display: flex;
+    gap:44px;
 }

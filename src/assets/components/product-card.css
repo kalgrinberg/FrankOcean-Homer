@@ -18,7 +18,7 @@
 }
 
 .color-stripe {
-    background: linear-gradient(to right, #00af66, #ff6720);
+    /* background: linear-gradient(to right, #00af66, #ff6720); */
 
     height: 8px;
     width: 100%;
