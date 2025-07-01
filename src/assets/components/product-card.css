@@ -30,7 +30,7 @@
 }
 
 .material {
-    background-color: rgb(236, 233, 233);
+    background-color: #f9f9f9;
     font-family: Arial-Black, sans-serif;
     height: 42px;
     width: 100%;
@@ -51,4 +51,9 @@
     letter-spacing: -1px;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+.AddtoCart:hover{
+    background-color: black;
+    color: white;
 }

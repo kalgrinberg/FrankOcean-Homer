@@ -8,10 +8,10 @@ function ProductCard(props: any) {
             <div className="color-style"> {props.colorStyle} </div>
             <div className="color-stripe" style={props.colorStripe}> </div>
             <img className="product" src={props.productImage} />
-            <div className="material"> 18K White Gold & Diamonds </div>
+            <div className="material"> 925 Silver with Lacquer </div>
             <div className="AddtoCart"> 
                 <span>Add to Cart</span>
-                <span>$5,940.00</span>
+                <span>{props.price}</span>
             </div>
 
         </div>

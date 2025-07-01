@@ -9,44 +9,31 @@ import Infrared from "../images/SodiumBracelet_GradientInfrared.png";
 
 function Carousel() {
     return (
-
-        <div className="carouselContainer">
-            <div className="carouselTrack">
-                <ProductCard
-                    colorStyle={"Clover Gradient"}
-                    productImage={Clover}
-                    colorStripe={{background: "linear-gradient(to right, rgb(0, 175, 102), rgb(192, 218, 99)" }}
-                />
-                <ProductCard
-                    colorStyle={"Retba Pink"}
-                    productImage={Retba}
-                    colorStripe={{background: "linear-gradient(to right, rgb(0, 175, 102), rgb(244, 166, 215)" }}
-                />
-                <ProductCard
-                    colorStyle={"Chet Blue Gradient"}
-                    productImage={ChetBlue}
-                    colorStripe={{background: "linear-gradient(to right, rgb(48, 127, 226), rgb(192, 218, 99)" }}
-                />
-                <ProductCard
-                    colorStyle={"Bubble Blue Gradient"}
-                    productImage={BubbleBlue}
-                    colorStripe={{background: "linear-gradient(to right, #59cbe8, #c0da63)" }}
-                />
-                <ProductCard
-                    colorStyle={"Cadmium Red Gradient"}
-                    productImage={Cadmium}
-                    colorStripe={{background: "linear-gradient(to right, #f9423a, #ff6720)" }}
-                />
-                <ProductCard
-                    colorStyle={"Infrared Gradient"}
-                    productImage={Infrared}
-                    colorStripe={{background: "linear-gradient(to right, #ff6720, #c0da63)" }}
-                />
+        <div className="carousel">
+            <div className= "carouselTitle"> Sodium Bracelet </div>
+            <div className="carouselContainer">
+                <div className="carouselTrack">
+                    <ProductCard
+                        colorStyle={"Clover Gradient"} productImage={Clover} price={"$5,940.00"}
+                        colorStripe={{background: "linear-gradient(to right, rgb(0, 175, 102), rgb(192, 218, 99)" }} />
+                    <ProductCard
+                        colorStyle={"Retba Pink"} productImage={Retba} price={"$5,940.00"}
+                        colorStripe={{background: "linear-gradient(to right, rgb(0, 175, 102), rgb(244, 166, 215)" }} />
+                    <ProductCard
+                        colorStyle={"Chet Blue Gradient"} productImage={ChetBlue} price={"$5,940.00"}
+                        colorStripe={{background: "linear-gradient(to right, rgb(48, 127, 226), rgb(192, 218, 99)" }} />             
+                    <ProductCard
+                        colorStyle={"Bubble Blue Gradient"} productImage={BubbleBlue} price={"$5,940.00"}
+                        colorStripe={{background: "linear-gradient(to right, #59cbe8, #c0da63)" }} /> 
+                    <ProductCard
+                        colorStyle={"Cadmium Red Gradient"} productImage={Cadmium} price={"$5,940.00"}
+                        colorStripe={{background: "linear-gradient(to right, #f9423a, #ff6720)" }} />
+                    <ProductCard
+                        colorStyle={"Infrared Gradient"} productImage={Infrared} price={"$5,940.00"}
+                        colorStripe={{background: "linear-gradient(to right, #ff6720, #c0da63)" }} />
+                </div>
             </div>
         </div>
-
     );
 }
-
-
 export default Carousel;

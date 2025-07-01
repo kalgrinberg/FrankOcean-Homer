@@ -1,15 +1,36 @@
+.carousel {
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+}
+
+.carouselTitle {
+    font-size: 72px;
+    font-weight: 150;
+    color: black;
+    /* background-color: cadetblue; */
+    height: auto;
+    width: auto;
+    padding: 0px 56px;
+
+}
+
+
 .carouselContainer {
     display: flex;
     width: auto;
-    padding: 0px 56px;
     /* background-color: rgb(156, 156, 214); */
     /* gap: 44px;  MOVING THIS TO carouselTRACK!*/
     padding-bottom: 100px;
     overflow-x: auto;
     scrollbar-width: none;
+    padding: 0px 56px;
+
 }
 
 .carouselTrack {
     display: flex;
-    gap:44px;
+    gap: 44px;
 }
