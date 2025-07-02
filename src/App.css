@@ -7,7 +7,11 @@
   width: 100%;
 }
 
-
+.productRows {
+display: flex;
+flex-direction: column;
+gap: 44px;
+}
 
 
 

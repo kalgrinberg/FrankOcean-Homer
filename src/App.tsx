@@ -13,9 +13,11 @@ function App() {
       
       <Hero />
 
-      <Carousel />
-
-      <Carousel />
+      <div className="productRows">
+        <Carousel carouselTitle={"Sodium High Jewelry Bracelet"} />
+        <Carousel carouselTitle={"Sodium Bracelet"} />
+        <Carousel carouselTitle={"Sodium Bracelet XL"}/>
+      </div>
 
 
 

@@ -12,7 +12,6 @@ export const productData = [
         productImage: Clover,
         material: "925 Silver with Lacquer",
         price: "$5,940.00",
-
     },
 
     {
@@ -21,7 +20,6 @@ export const productData = [
         productImage: Retba,
         material: "925 Silver with Lacquer",
         price: "$5,940.00",
-
     },
 
     {
@@ -30,7 +28,6 @@ export const productData = [
         productImage: ChetBlue,
         material: "925 Silver with Lacquer",
         price: "$5,940.00",
-
     },
 
     {
@@ -39,7 +36,6 @@ export const productData = [
         productImage: BubbleBlue,
         material: "925 Silver with Lacquer",
         price: "$5,940.00",
-
     },
 
     {
@@ -48,7 +44,6 @@ export const productData = [
         productImage: Cadmium,
         material: "925 Silver with Lacquer",
         price: "$5,940.00",
-
     },
 
     {
@@ -57,6 +52,5 @@ export const productData = [
         productImage: Infrared,
         material: "925 Silver with Lacquer",
         price: "$5,940.00",
-
     },
 ]
