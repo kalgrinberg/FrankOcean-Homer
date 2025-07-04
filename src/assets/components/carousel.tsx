@@ -1,16 +1,20 @@
 import ProductCard from "./product-card";
 import "./carousel.css";
 
-import "../data/productinfo";
-import { productData } from "../data/productinfo";
+import type { Product } from "../data/productinfo";
 
-function Carousel(props: any) {
+interface CarouselProps {
+    carouselTitle: string;
+    products: Product[];
+}
+
+function Carousel({ carouselTitle, products }: CarouselProps) {
     return (
         <div className="carousel">
-            <div className="carouselTitle"> {props.carouselTitle} </div>
+            <div className="carouselTitle"> {carouselTitle} </div>
             <div className="carouselContainer">
                 <div className="carouselTrack">
-                    {productData.map((product, index) => (
+                    {(products ?? []).map((product, index) => (
                         <ProductCard
                             key={index}
                             colorStyle={product.colorStyle}
